@@ -22,7 +22,7 @@ body {
   background: #F9FAFB
 }
 .ant-result-icon.ant-result-image > svg > g > path:nth-child(11){
-  fill: #553E97 !important;
+  fill: #0047ab !important;
 }
 :where(.css-dev-only-do-not-override-3rel02).ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
   border-color: #553E97;

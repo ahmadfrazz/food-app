@@ -17,7 +17,7 @@ function PageNotFound() {
               status="404"
               title="404"
               subTitle="Sorry, the page you visited doesn't exist or some other error occured."
-              extra={<Button type="primary" onClick={() => nav(navigateTo)} style={{background: '#553E97'}}>Back Home</Button>}
+              extra={<Button type="primary" onClick={() => nav(navigateTo)} style={{background: '#0047ab'}}>Back Home</Button>}
             />
         </Container>
     </>
@@ -31,24 +31,4 @@ const Container = styled(Space)(() => ({
     alignContent: 'center',
     justifyItems: 'center',
     height: '100vh',
-  }));
-const DigitTypo = styled(Typography)(() => ({
-    fontWeight: 'bold',
-    fontSize: 80,
-    color: '#5A5A5A',
-  }));
-const NotFoundTypo = styled(Typography)(() => ({
-    fontWeight: 500,
-    fontSize: 25,
-    marginTop: '-20px',
-    color: '#5A5A5A'
-  }));
-const Description = styled(Typography)(() => ({
-    marginTop: 4,
-    color: '#5A5A5A'
-  }));
-const BackButton = styled(Button)(() => ({
-    background: '#553E97 !important',
-    color: 'white !important',
-    outline: 'none !important'
   }));
