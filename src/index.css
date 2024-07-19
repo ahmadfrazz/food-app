@@ -1,0 +1,135 @@
+:root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #f7f7f7; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body * {
+  font-family: Montserrat;
+}
+
+body {
+  margin: 0;
+  background: #F9FAFB
+}
+.ant-result-icon.ant-result-image > svg > g > path:nth-child(11){
+  fill: #553E97 !important;
+}
+:where(.css-dev-only-do-not-override-3rel02).ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+  border-color: #553E97;
+  background-color: #553E97;
+}
+.ant-select-selector:hover,
+.ant-select-selector:focus-within{
+  border-color: #553E97 !important;
+}
+.ant-select-selector{
+  height: 40px !important;
+}
+.ant-select-arrow {
+  height: 20px !important;
+}
+
+.ant-dropdown-menu-item{
+  padding: 10px 50px !important;
+}
+.ant-dropdown .ant-dropdown-menu{
+  padding: 8px !important;
+}
+
+.ant-drawer-title{
+  line-height: 40px !important;
+}
+.ant-card-body{
+  padding: 12px 12px 12px !important;
+}
+
+.ant-card.ant-card-bordered{
+  border: 1px solid #e5e7eb !important;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 1px #dcdee2 !important;
+}
+
+.table-responsive {
+  overflow-x: auto !important;
+}
+
+.cartTable{
+  padding: 10px 20px;
+  width: 100%;
+  min-width: 1050px;
+  background: #ffffff;
+  color: #212529;
+  vertical-align: top;
+  border-color: #dee2e6;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  /* box-shadow: 1px 4px 5px 1px #ececec !important; */
+}
+.totalTable{
+  padding: 10px 20px;
+  width: 470px;
+  height: 130px;
+  background: #ffffff;
+  color: #212529;
+  vertical-align: top;
+  border-color: #dee2e6;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  /* box-shadow: 1px 4px 5px 1px #ececec !important; */
+}
+.cartTable tr th:nth-child(1),
+.cartTable tr td:nth-child(1){
+  width: 4%;
+  text-align: left;
+}
+.cartTable tr th:nth-child(2),
+.cartTable tr td:nth-child(2){
+  width: 14%;
+  text-align: left;
+}
+.cartTable tr th:nth-child(3),
+.cartTable tr td:nth-child(3){
+  width: 26%;
+  text-align: left;
+}
+.cartTable tr th:nth-child(4),
+.cartTable tr td:nth-child(4){
+  width: 15%;
+  text-align: left;
+}
+.cartTable tr th:nth-child(5),
+.cartTable tr td:nth-child(5){
+  width: 20%;
+  text-align: left;
+}
+.cartTable tr th:nth-child(6),
+.cartTable tr td:nth-child(6){
+  width: 13%;
+  text-align: left;
+}
+.cartTable tr th:nth-child(7),
+.cartTable tr td:nth-child(7){
+  width: 8%;
+  text-align: left;
+}
+
+.tableImage{
+  margin-bottom: 0px !important;
+}
+.cartTable thead tr{
+height: 50px;
+}
+
+.table-responsive {
+  overflow-x: auto !important;
+}

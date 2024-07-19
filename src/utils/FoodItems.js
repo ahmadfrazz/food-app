@@ -1,0 +1,51 @@
+export const foodItems = [
+    {
+      id: 1,
+      title: 'Shokat Biryani',
+      imageUrl: 'https://images.deliveryhero.io/image/fd-pk/LH/omwm-listing.jpg?width=400&height=225',
+      price: '400',
+      discountPercent: '0',
+    },
+    {
+      id: 2,
+      title: 'Karachi Murgh Pulao',
+      imageUrl: 'https://images.deliveryhero.io/image/fd-pk/LH/heut-listing.jpg?width=400&height=225',
+      price: '1800',
+      discountPercent: '0',
+    },
+    {
+      id: 3,
+      title: 'Ranchers Burgers',
+      imageUrl: 'https://images.deliveryhero.io/image/fd-pk/LH/n0ke-listing.jpg?width=400&height=225',
+      price: '1400',
+      discountPercent: '0',
+    },
+    {
+      id: 4,
+      title: '14th Street Pizza',
+      imageUrl: 'https://images.deliveryhero.io/image/fd-pk/LH/tjgv-listing.jpg?width=400&height=225',
+      price: '3000',
+      discountPercent: '0',
+    },
+    {
+      id: 5,
+      title: 'DAMN Burgers',
+      imageUrl: 'https://images.deliveryhero.io/image/fd-pk/LH/fqqp-listing.jpg?width=400&height=225',
+      price: '1100',
+      discountPercent: '0',
+    },
+    {
+      id: 6,
+      title: 'Koyla Grill',
+      imageUrl: 'https://images.deliveryhero.io/image/fd-pk/LH/x7eg-listing.jpg?width=400&height=225',
+      price: '1600',
+      discountPercent: '0',
+    },
+    {
+      id: 7,
+      title: 'Bannu Beef Pulao BBQ',
+      imageUrl: 'https://images.deliveryhero.io/image/fd-pk/LH/aih1-listing.jpg?width=400&height=225',
+      price: '1900',
+      discountPercent: '0',
+    },
+  ]
