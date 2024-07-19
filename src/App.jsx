@@ -14,21 +14,12 @@ function App() {
   return (
     <>
       <Routes>
-        {/* === Public Routes === */}
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-
-        {/* === Private Routes === */}
         <Route path="/" element={<Layout />}>
-          {/* <Route element={<RequireAuth />}>
-            {user.email && (
-              <> */}
-                <Route path="dashboard" element={<Dashboard />} />
-                <Route path="cart" element={<Cart />} />
-              {/* </>
-            )}
-          </Route> */}
+        <Route path="dashboard" element={<Dashboard />} />
+        <Route path="cart" element={<Cart />} />
         </Route>
 
         {/* === Unknown Routes === */}
